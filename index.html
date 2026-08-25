@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Design: layout, containers, cards, image box, sections -->
+    <link rel="stylesheet" href="css/design.css">
+    <!-- Typography: headings, text, fonts -->
+    <link rel="stylesheet" href="css/typography.css">
+    <!-- Buttons: .btn, .send-btn, social icon links -->
+    <link rel="stylesheet" href="css/buttons.css">
+    <!-- Inputs: form fields, textarea, form group -->
+    <link rel="stylesheet" href="css/inputs.css">
+    <!-- Animations: all @keyframes -->
+    <link rel="stylesheet" href="animate/animations.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio</a>
+
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bars-animation">
+        <div class="bars" style="--i:6;"></div>
+        <div class="bars" style="--i:5;"></div>
+        <div class="bars" style="--i:4;"></div>
+        <div class="bars" style="--i:3;"></div>
+        <div class="bars" style="--i:2;"></div>
+        <div class="bars" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+    <div class="home-info">
+        <h1>Yares Kiejie</h1>
+        <h2>I'm a 
+            <span style="--i:4" data-text="Frontend Developer">Frontend Developer</span>
+            <span style="--i:3" data-text="Data Analyst">Data Analyst</span>
+            <span style="--i:2" data-text="Documenter">Documenter</span>
+            <span style="--i:1" data-text="Documenter">Designer</span>
+        </h2>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, quo ducimus nam aliquid asperiores quis neque illum ut atque, natus nemo consequatur nulla error, fugiat nostrum provident voluptatibus ipsa. Neque.
+        </p>
+
+        <div class="btn-sci">
+            <a href="#" class="btn">Download </a>
+            <div class="sci">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-img">
+        <div class="img-box">
+            <div class="img-item">
+                <img src="img.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="section-wrapper" id="portfolio">
+        <div class="section-container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">My Skills &amp; Tech Stack</p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bxl-html5'></i></div>
+                    <h3>HTML</h3>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-label">
+                            <span>Proficiency</span><span>85%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="--pct:85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bxl-css3'></i></div>
+                    <h3>CSS</h3>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-label">
+                            <span>Proficiency</span><span>80%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="--pct:80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon"><i class='bx bxl-javascript'></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar-wrap">
+                        <div class="progress-label">
+                            <span>Proficiency</span><span>75%</span>
+                        </div>
+                        <div class="progress-track">
+                            <div class="progress-fill" style="--pct:75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="section-wrapper" id="hobbies">
+        <div class="section-container">
+            <h2 class="section-title">Hobbies</h2>
+            <p class="section-subtitle">Things I love doing in my free time</p>
+
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class='bx bx-joystick'></i></div>
+                    <h3>Playing Online Games</h3>
+                    <p>Love diving into online worlds and competing with players worldwide.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class='bx bx-music'></i></div>
+                    <h3>Playing Guitar</h3>
+                    <p>Strumming chords and expressing emotions through music.</p>
+                </div>
+
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class='bx bx-tv'></i></div>
+                    <h3>Watching Pinay Drama</h3>
+                    <p>Enjoying heartfelt Filipino stories and unforgettable plot twists.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-wrapper" id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Contact</h2>
+            <p class="section-subtitle">Get in touch — I'd love to hear from you</p>
+
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn send-btn">
+                    <i class='bx bx-send'></i> Send Message
+                </button>
+                <p class="form-success" id="formSuccess">Message sent successfully! I'll get back to you soon.</p>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

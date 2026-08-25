@@ -1,0 +1,60 @@
+/* ===================================================
+   ANIMATIONS
+   All @keyframes and animation-related rules
+=================================================== */
+
+/* Fade in navbar and home content */
+@keyframes show-content {
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+/* Animated typing text — display cycling */
+@keyframes display-text {
+    25% {
+        display: none;
+    }
+    100% {
+        display: none;
+    }
+}
+
+/* Animated typing text — fill effect */
+@keyframes fill-text {
+    10%,
+    100% {
+        width: 0;
+    }
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+/* Rotating border on profile image */
+@keyframes rotate-border {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Background bars sliding in */
+@keyframes show-bars {
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+/* Skill progress bar grow */
+@keyframes grow-bar {
+    from { width: 0; }
+    to   { width: var(--pct); }
+}
+
+/* Contact form success message fade in */
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
